@@ -3,13 +3,14 @@
  */
 package org.iesalandalus.programacion.reservasaulas.mvc.modelo.dominio;
 
+import java.io.Serializable;
 import java.util.Objects;
 
 /**
  * @author vivas
  *
  */
-public class Profesor {
+public class Profesor implements Serializable {
 
 	private static final String ER_TELEFONO = "[96]\\d{8}";
 	private static final String ER_CORREO = ".+@[a-zA-Z]+\\.[a-zA-Z]+";
